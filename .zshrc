@@ -81,7 +81,7 @@ alias -g A='| awk'
 
 #alias
 alias ll='ls -alG'
-alias nocell='cd /Users/hsnok/develop/nocell'
+alias nocell='cd ~/develop/nocell'
 
 # docker
 alias dcub='docker-compose up -d --build'
@@ -99,5 +99,5 @@ alias grg='git remote prune origin'
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/hsnok/.sdkman"
-[[ -s "/Users/hsnok/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/hsnok/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="~/.sdkman"
+[[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
